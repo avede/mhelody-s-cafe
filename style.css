@@ -228,6 +228,7 @@ h1 {
 }
 .contact-info div {
   margin: 2.5rem auto;
+  width: 85%;
 }
 .contact-address {
   display: flex;
@@ -349,7 +350,8 @@ h1 {
 }
 .priced-img {
   object-fit: cover;
-  border-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
   background-size: cover;
   background-position: center;
   display: block;
